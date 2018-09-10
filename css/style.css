@@ -1,0 +1,83 @@
+.search-bar{padding-top: 34px;padding-bottom: 34px}
+table td{padding-top: 11px !important; padding-bottom: 11px !important}
+table th{border-top: 1px solid #ddd !important;border-bottom: 1px solid #ddd !important;padding-top: 11px !important; padding-bottom: 11px !important}
+.container {width: 861px;}
+
+
+/*      Mobile Layout:320px and 480px and more but less than or equal to 767px.
+=============================================================================================
+*/
+
+@media only screen and (min-width:320px) and (max-width:767px){
+    *{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+ 
+ .container {
+    width: 100%;
+    padding: 0 20px;
+   }
+   
+   .table-responsive {
+		display: block;
+		width: 100%;
+		overflow-x: auto;
+		-ms-overflow-style: -ms-autohiding-scrollbar;
+	}	
+
+}
+
+/*      Wide Mobile Layout:480px.
+==============================================================================================
+*/
+
+@media only screen and (min-width:480px) and (max-width:767px){
+    *{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+	
+	.container {
+    width: 100%;
+    padding: 0 20px;
+   }
+   
+   .table-responsive {
+		display: block;
+		width: 100%;
+		overflow-x: auto;
+		-ms-overflow-style: -ms-autohiding-scrollbar;
+	}	
+        
+    
+}
+
+
+
+/*      Tablet/iPad Layout:768px.
+===============================================================================================
+*/
+
+@media only screen and (min-width:768px) and (max-width:990px){
+    *{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+	
+	.container {
+    width: 100%;
+    padding: 0 20px;
+   }
+   
+   .table-responsive {
+		display: block;
+		width: 100%;
+		overflow-x: auto;
+		-ms-overflow-style: -ms-autohiding-scrollbar;
+	}	
+  
+    
+}
+
+/*      Tablet/iPad Layout:768px.
+===============================================================================================
+*/
+
+@media only screen and (min-width:991px) and (max-width:1024px){
+    *{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+  
+
+
+}
